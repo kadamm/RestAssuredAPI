@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "API Testing" parallel = "tests" thread-count = "2">
+    <listeners>
+        <listener class-name = "api.utilities.ExtentReport" />
+    </listeners>
+    <test name = "API project testing">
+        <classes>
+            <class name = "api.tests.UserTests" />
+        </classes>
+    </test>
+</suite>
